@@ -11,12 +11,12 @@ Modern data-driven applications require developers that know how to store data a
 
 <br>
 <h1>How to run </h1>
-1-VirtualBox installation (https://www.virtualbox.org/wiki/Downloads)
-2-Vagrant installation (https://www.vagrantup.com/downloads)
-3-Clone of Vagrant VM for ud197 (git clone http://github.com/udacity/fullstack-nanodegree-vm fullstack)
-4-cd fullstack/vagrant
-5-vagrant up (you can turn off the VM with 'vagrant halt')
-6-vagrant ssh (from here you can type 'exit' to log out)
-7-cd /vagrant/tournament
-8-psql -f tournament.sql
-9python tournament_results.py
+<li>1-VirtualBox installation (https://www.virtualbox.org/wiki/Downloads)</li>
+<li>2-Vagrant installation (https://www.vagrantup.com/downloads)</li>
+<li>3-Clone of Vagrant VM for ud197 (git clone http://github.com/udacity/fullstack-nanodegree-vm fullstack)</li>
+<li>4-cd fullstack/vagrant</li>
+<li>5-vagrant up (you can turn off the VM with 'vagrant halt')</li>
+<li>6-vagrant ssh (from here you can type 'exit' to log out)</li>
+<li>7-cd /vagrant/tournament</li>
+<li>8-psql -f tournament.sql</li>
+<li>9-python tournament_results.py</li>
