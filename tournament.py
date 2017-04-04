@@ -37,7 +37,6 @@ def countPlayers():
     c.execute(query)
     rows = c.fetchall()
     return rows[0][0]
-    return num_players
 
 def registerPlayer(name):
     """Adds a player to the tournament database.
